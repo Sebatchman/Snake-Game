@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+	background-image: url(https://m.media-amazon.com/images/I/71yZASNKrDL._AC_SL1468_.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+canvas {
+	background-color: #EFE7BC;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.score-wrapper {
+	position: fixed;
+	color: red;
+	font-size: 1.5em;
+	margin-top: 1%;
+	margin-left: 1.5%;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.startGame {
+	text-align: center;
+	margin: auto;
+	justify-content: center;
+	display: grid;
+}
+
+.startGameBtn {
+	width: 15em;
+	height: 5em;
+	color: red;
+	border: none;
+	font-size: 1.05em;
+	background-color: #E2AFEA;
+	border-radius: 20px;
+	cursor: pointer;
+	font-family: 'Patrick Hand', cursive;
+	padding: 0;
+}
+
+.startGameText {
+	font-size: 1.5em;
+}
+
+.instructions {
+	background-color: #E2AFEA;
+	color: red;
+	position: fixed;
+  	left: 50%;
+  	bottom: -4%;
+  	line-height: 0;
+  	transform: translate(-50%, -50%);
+  	margin: 0 auto;
+  	border-radius: 20px;
+  	padding-left: 2%;
+  	padding-right: 2%;
+  	cursor: pointer;
+  	font-family: 'Patrick Hand', cursive;
+  	-webkit-transition: .4s ease-in-out opacity;
+    -moz-transition: .4s ease-in-out opacity;
+    -o-transition: .4s ease-in-out opacity;
+    transition: .4s ease-in-out opacity;
+}
+
+.instructions:hover {
+	opacity: 0;
+}
+
+.instructions p{
+	font-size: 1.2em;
+}
+
+#finalScoreNum {
+	left: 0%;
+    line-height: 200px;
+	color: red;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 10em;
+  	color: red;
+  	font-size: 10em;
+  	font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
